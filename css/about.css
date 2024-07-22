@@ -1,0 +1,44 @@
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.btn1{
+    border: 2px solid black;
+    border-radius: 9px;
+    padding: 10px 20px;
+    margin: 0px 7px;
+    background-color: white;
+    transition: background-color .4s ease-in-out;
+}
+.btn1:hover{
+    background-color: black;
+    color: white;
+    border: 0;
+}
+.nav-link{
+    font-size: 23px;
+    margin: 0px 5px;
+    color: black;
+}
+.nav-link i{
+    transition: all .2s ease-in;
+}
+.nav-link i:hover{
+    color: black;
+    font-size: 30px;
+}
+.btn2{
+    color: white;
+    background-color: transparent;
+    border: 2px solid white ;
+    padding: 5px 15px;
+    border-radius: 9px;
+    transition: background-color .4s ease-in-out;
+}
+.btn2:hover{
+    background-color: white;
+    border: 0;
+    color: black;
+}

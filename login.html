@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="css/login.css" rel="stylesheet">
+        <title>Document</title>
+    </head>
+    <body>
+        <!-- header -->
+        <header style="margin-bottom: 100px;">
+            <!-- first nav -->
+            <nav class="navbar navbar-expand-sm navbar-dark mt-4 ">
+                <div class="container-fluid mx-5">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="mynavbar">
+                        <ul class="navbar-nav me-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="javascript:void(0)">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="javascript:void(0)">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="javascript:void(0)">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </li>
+                        </ul>
+                        <form class="d-flex">
+                            <button class="btn1" type="button" href="login.html">Login</button>
+                            <button class="btn1 " type="button" href="login.html">Sign Up</button>
+                        </form>
+                        <ul class="navbar-nav ">
+                            <li class="nav-item">
+                                <a class="nav-link" href="login.html">
+                                    <i class="fa-solid fa-user"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="javascript:void(0)">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                </a>
+                            </li>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- second nav -->
+            <nav class="navbar navbar-expand-lg bg-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="home.html">
+                        <img src="image/logo.png" class="img-fluid">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarScroll">
+                        <ul class="navbar-nav me-auto my-2 mx-5 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                            <li class="nav-item">
+                                <a class="nav-link text-light  active" aria-current="page" href="home.html" id="home" >Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active text-light" aria-current="page" href="clothes.html">Clothes</a>
+                            </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Category
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Woman</a></li>
+                                <li><a class="dropdown-item" href="#">Men</a></li>
+                                <li><a class="dropdown-item" href="#">Kids</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light " aria-disabled="true" href="about.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light " aria-disabled="true" href="contact.html">Contact Us</a>
+                        </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn2 " type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!-- section 1 -->
+        <section class="loginPage" style="height: 80vh;">
+            <div class="container mt-5 justify-content-center align-items-center">
+                <div class="row g-5 d-flex">
+                    <div class="col-12 col-lg-6 bg-dark text-light text-center  " style="height: 80vh;">
+                        <div class="content justify-content-center align-items-center " style="margin-top: 30%;">
+                            <h1>Welcome Back!!</h1>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                            <button class="login-btn">Login</button>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 text-center">
+                        <h1 class="my-5">Create Account</h1>
+                        <input class="form-control form-control-lg mt-3" type="text" placeholder="Name" aria-label=".form-control-lg example">
+                        <input class="form-control form-control-lg mt-3" type="text" placeholder="Email" aria-label=".form-control-lg example">
+                        <input class="form-control form-control-lg mt-3" type="text" placeholder="Password" aria-label=".form-control-lg example">
+                        <p class="mt-5">Lorem ipsum dolor sit amet.</p>
+                        <ul class="mt-2">
+                            <li class="d-inline-block px-2"><a class="fs-2 text-dark"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li class="d-inline-block px-2"><a class="fs-2 text-dark" ><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li class="d-inline-block px-2 "><a class="fs-2 text-dark"><i class="fa-brands fa-instagram"></i></a></li>
+                        </ul>
+                        <button class="signup mt-2 fs-5">SIGN UP</button>
+                    
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <script src="js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
+

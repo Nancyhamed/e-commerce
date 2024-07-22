@@ -1,0 +1,64 @@
+.signup{
+    background-color: black;
+    color: white;
+    padding: 10px 60px;
+    border: 0;
+    transition: all .3s ease-out;
+}
+.signup:hover{
+    border: 3px solid black;
+    background-color: white;
+    color: black;
+}
+.login-btn{
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 50px;
+    padding: 0px 200px;
+    font-size: 25px;
+    margin-top: 10px;
+    transition: all .4s ease-in-out;
+}
+.login-btn:hover{
+    background-color: white;
+    color: black;
+}
+.btn1{
+    border: 2px solid black;
+    border-radius: 9px;
+    padding: 10px 20px;
+    margin: 0px 7px;
+    background-color: white;
+    transition: background-color .4s ease-in-out;
+}
+.btn1:hover{
+    background-color: black;
+    color: white;
+    border: 0;
+}
+.nav-link{
+    font-size: 23px;
+    margin: 0px 5px;
+    color: black;
+}
+.nav-link i{
+    transition: all .2s ease-in;
+}
+.nav-link i:hover{
+    color: black;
+    font-size: 30px;
+}
+.btn2{
+    color: white;
+    background-color: transparent;
+    border: 2px solid white ;
+    padding: 5px 15px;
+    border-radius: 9px;
+    transition: background-color .4s ease-in-out;
+}
+.btn2:hover{
+    background-color: white;
+    border: 0;
+    color: black;
+}
